@@ -1,0 +1,92 @@
+name: al_busayra_project
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: 
+  keyboard_actions: ^4.2.0
+  fluttertoast: ^8.2.5
+  pin_code_fields: ^8.0.1
+  circular_countdown_timer: ^0.2.3
+  mask_text_input_formatter: ^2.9.0
+  shared_preferences: ^2.2.2
+  get: ^4.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/response/
+    
+
+  fonts:
+      #PublicSans Fonts
+    - family: PublicSans-Bold
+      fonts:
+        - asset: assets/fonts/PublicSans/PublicSans-Bold.ttf
+    - family: PublicSans-Medium
+      fonts:
+        - asset: assets/fonts/PublicSans/PublicSans-Medium.ttf
+    - family: PublicSans-Regular
+      fonts:
+        - asset: assets/fonts/PublicSans/PublicSans-Regular.ttf
+      #OpenSans Fonts
+    - family: OpenSans-Bold
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-Bold.ttf
+    - family: OpenSans-BoldItalic
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-BoldItalic.ttf
+    - family: OpenSans-CondBold
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-CondBold.ttf
+    - family: OpenSans-ExtraBold
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-ExtraBold.ttf
+    - family: OpenSans-ExtraBoldItalic
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf
+    - family: OpenSans-Italic
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-Italic.ttf
+    - family: OpenSans-Light
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-Light.ttf
+    - family: OpenSans-LightItalic
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-LightItalic.ttf
+    - family: OpenSans-Light-webfont
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-Light-webfont.ttf
+    - family: OpenSans-Regular
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-Regular.ttf
+    - family: OpenSans-SemiBold
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-SemiBold.ttf
+    - family: OpenSans-SemiBoldItalic
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf
+
+
